@@ -1,0 +1,76 @@
+.elemento1{
+    height: 200px ;
+    width: 100%;
+    background-color:rgb(218, 185, 137);
+    border: 1px solid black;
+    background-image:url(https://th.bing.com/th/id/OIP.ckACI60MV78iDTD8aIhHbQHaC9?pid=ImgDet&w=660&h=264&rs=1);
+
+}
+h1{
+    padding-top: 5%;
+    padding-left: 25%;
+    font-family:  Georgia;
+    color:rgb(106, 116, 21);
+    font-size: ;
+   }
+
+.elemento2{
+    height: 100px ;
+    width: 100%;
+    background-color:blue;
+    border: 1px solid black;
+    
+   
+}
+.cajatexto,.cajacomercial{
+    position: relative;/pobre de muchas formas para que la cajita se desplase por arriba del texto pero no me salio/
+}
+.cajacomercial{
+    height: 100px;
+    width: 100px;
+    background-attachment:fixed;
+    background-image: url(imagenes/R.png);
+    float: right;
+    z-index: 2;
+    position: ;
+}
+.cajatexto{
+    z-index: 1;
+    position: ;
+}
+.elemento3{
+    height: 800px ;
+    width: 100%;
+    background-color:rgb(218, 185, 137);
+    border: 1px solid black;
+}
+.elemento4{
+    height: 100px ;
+    width: 100%;
+    background-color:rgb(218, 185, 137);
+    border: 1px solid black;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns:  100%;
+    grid-row: 10% 15% 70% 5%;
+}
+.container-fluid{
+    background-color: blue;
+    
+    height: 100px;
+   
+}
+.form-floating{
+    height: 50px;
+    width: 20%;
+    float: right;
+    
+
+}
+.aside{
+ 
+}
+/me falto modificar las fuentes tamaño/
+/no se como hacer para que el buscador te lleve a algun lado/
+/la barra del navegador tenia una opcion que se desplegaba y elegias entre tres, como no anduvo  la saque/
